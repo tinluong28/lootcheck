@@ -25,13 +25,14 @@
   ],
   "devDependencies": {
     "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
     "jest-cli": "^20.0.4",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-test-renderer": "^16.8.5"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "App.js",
+  "main": "index.js",
   "author": "Tin",
   "license": "ISC"
 }
