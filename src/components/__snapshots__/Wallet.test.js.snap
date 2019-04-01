@@ -23,7 +23,7 @@ ShallowWrapper {
       "children": <h3
         className="balance"
       >
-        Wallet balance: 
+        Wallet current balance: 
         20
       </h3>,
     },
@@ -34,14 +34,14 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          "Wallet balance: ",
+          "Wallet current balance: ",
           20,
         ],
         "className": "balance",
       },
       "ref": null,
       "rendered": Array [
-        "Wallet balance: ",
+        "Wallet current balance: ",
         20,
       ],
       "type": "h3",
@@ -57,7 +57,7 @@ ShallowWrapper {
         "children": <h3
           className="balance"
         >
-          Wallet balance: 
+          Wallet current balance: 
           20
         </h3>,
       },
@@ -68,14 +68,14 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "Wallet balance: ",
+            "Wallet current balance: ",
             20,
           ],
           "className": "balance",
         },
         "ref": null,
         "rendered": Array [
-          "Wallet balance: ",
+          "Wallet current balance: ",
           20,
         ],
         "type": "h3",
