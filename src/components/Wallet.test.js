@@ -15,4 +15,18 @@ describe("Wallet", () => {
       "Wallet current balance: 20"
     );
   });
+
+  describe("when the user types into the wallet input", () => {
+    const userbalance = "25";
+
+    beforeEach(() => {
+      wallet
+        .find(".input-wallet")
+        .simulate("change", { target: { value: userBalance } });
+    });
+
+    it("update the local wallet balance in `state` and converts it to a number", () => {
+      expect(wallet.state().balance).toEqual(parseInt(userBalance, 10));
+    });
+  });
 });
